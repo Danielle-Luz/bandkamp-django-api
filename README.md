@@ -1,74 +1,52 @@
-# M5 - BandKamp Generic View
+<h1 align="center">Badkamp Django API</h1>
 
-## Instalação dos pacotes de teste
+<p align="center">
+    <img alt="Badge indicando que o projeto foi criado em abril de 2023" src="https://img.shields.io/badge/Data%20de%20cria%C3%A7%C3%A3o-Abril%2F2023-blue">
+    <img alt="Badge indicando que o status do projeto é 'concluído'" src="https://img.shields.io/badge/Status-Concluído-yellow">
+</p>
 
-- Verifique se os pacotes `pytest` e/ou `pytest-testdox` estão instalados globalmente em seu sistema:
-```shell
-pip list
-```
-- Caso seja listado o `pytest` e/ou `pytest-testdox` e/ou `pytest-django` em seu ambiente global, utilize os seguintes comando para desinstalá-los globalmente:
-```shell
-pip uninstall pytest
-```
+## Índice
 
-```shell
-pip uninstall pytest-testdox
-```
-
-```shell
-pip uninstall pytest-django
-```
-
-A partir disso, prossiga com os passos:
-
-1. Crie seu ambiente virtual:
-```bash
-python -m venv venv
-```
-
-2. Ative seu venv:
-```bash
-# Linux:
-source venv/bin/activate
-
-# Windows (Powershell):
-.\venv\Scripts\activate
-
-# Windows (Git Bash):
-source venv/Scripts/activate
-```
-
-3. Instale o pacote `pytest-testdox`:
-```shell
-pip install pytest-testdox pytest-django
-```
+• <a href="#descricao">Descrição</a>
+<br>
+• <a href="#tecnologias">Tecnologias</a>
+<br>
+• <a href="#bd">Banco de dados</a>
+<br>
+• <a href="#Desenvolvedora">Desenvolvedora</a>
+<br>
+<p align="center">
+</p>
 
 
-4. Agora é só rodar os testes no diretório principal do projeto:
-```shell
-pytest --testdox -vvs
-```
+<h2 id="descricao">Descrição</h2>
+API feita com Django dentro do curso Kenzie Academy Brasil para o gerenciamento de músicas de modo semelhante ao Bandkamp.
 
-5. Caso queira um log mais resumido, basta executar com os testes sem as flags **verbose**:
-```shell
-pytest --testdox
-```
+<h2 id="tecnologias">Tecnologias</h2>
 
-## Rodando os testes por partes
+- Python
+- Django
+- PostgreSQL
 
-Caso você tenha interesse em rodar apenas um diretório de testes específico, pode utilizar o comando:
+<h2 id="bd">Banco de dados</h2>
 
-- Rodando testes de users:
-```python
-pytest --testdox -vvs tests/users/
-```
+| SGBD | MER |
+|------|-----|
+| PostgreSQL | [Diagrama MER da base de dados](MER.pdf) |
 
-- Rodando testes de albums:
-```python
-pytest --testdox -vvs tests/albums/
-```
 
-- Rodando testes de songs:
-```python
-pytest --testdox -vvs tests/songs/
-```
+<h2 id="Desenvolvedora">Desenvolvedora</h2>
+
+<p align="center">
+  <a href="https://github.com/Danielle-Luz">
+    <img width="120px" src="https://avatars.githubusercontent.com/u/99164019?v=4" alt="foto de uma mulher parda com o cabelo castanho, sorrindo levemente na frente de um fundo verde com bits">
+  </a>
+</p>
+
+<p align="center">
+Danielle da Luz Nascimento
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/danielle-da-luz-nascimento/">@Linkedin</a>
+</p>
